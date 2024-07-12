@@ -80,6 +80,7 @@ function Login() {
                     infinite={true}
                     dragEnabled={false}
                     touchEnabled={false}
+                    interval={2000}
                 >
                     <Slider>
                         <Slide index={0}><Image src={img1}/></Slide>
